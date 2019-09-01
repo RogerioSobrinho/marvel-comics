@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { HttpStatusService } from './services/http-status.service';
 
 @Component({
   selector: 'app-root',
