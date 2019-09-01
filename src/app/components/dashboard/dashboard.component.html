@@ -1,0 +1,8 @@
+<main>
+  <div class="row">
+    <div *ngFor="let comic of comics">
+        <img [src]="getImage(comic)" class="portrait_xlarge" alt="{{comic.title}}" title="{{comic.title}}">
+        <p class="title" title="{{comic.title}}">{{comic.title}}</p>
+    </div>
+  </div>
+</main>
